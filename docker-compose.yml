@@ -1,0 +1,24 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    image: clean-code-php:latest
+    volumes:
+      - .:/app
+    working_dir: /app/php
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
+
+  node:
+    build:
+      context: .
+      dockerfile: docker/node/Dockerfile
+    image: clean-code-node:latest
+    volumes:
+      - .:/app
+    working_dir: /app/typescript-node
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"]

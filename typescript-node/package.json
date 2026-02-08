@@ -1,0 +1,14 @@
+{
+  "name": "clean-code-typescript-studies",
+  "version": "1.0.0",
+  "description": "Clean Code e Clean Architecture - exercícios em TypeScript",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  }
+}

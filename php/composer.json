@@ -1,0 +1,21 @@
+{
+    "name": "clean-code-php/studies",
+    "description": "Clean Code e Clean Architecture - exercícios em PHP",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CleanCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CleanCode\\Tests\\": "tests/"
+        }
+    }
+}

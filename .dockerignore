@@ -1,0 +1,23 @@
+# Dependências (volume mount é a fonte da verdade)
+**/vendor/
+**/node_modules/
+php/vendor/
+typescript-node/node_modules/
+
+# Versionamento e IDE
+.git/
+.gitignore
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Documentação (reduz contexto de build; opcional)
+# *.md
+
+# Planos e artefatos locais
+.cursor/plans/
+*.plan.md
+.progress
