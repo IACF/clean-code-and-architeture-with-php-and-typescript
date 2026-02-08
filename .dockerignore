@@ -20,4 +20,4 @@ typescript-node/node_modules/
 # Planos e artefatos locais
 .cursor/plans/
 *.plan.md
-.progress
+.progress.md

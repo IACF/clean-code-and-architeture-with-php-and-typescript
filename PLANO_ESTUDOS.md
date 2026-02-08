@@ -11,7 +11,7 @@ Projeto de estudo para aprender **Clean Code** e **Clean Architecture** com impl
 - **Fluxo obrigatório a cada capítulo/princípio:** Antes de ensinar ou propor exercícios, o agente deve perguntar explicitamente: *"Você quer estudar e implementar este capítulo/princípio agora, ou prefere ir para o próximo?"*
 - Se o desenvolvedor escolher **estudar**: o agente explica o tópico, sugere leitura (quando houver referência ao livro), propõe exercícios de implementação em **ambas** as pastas (`php/` e `typescript-node/`) e pode usar as ferramentas do **Senior Mind MCP** (review_code, suggest_refactoring, explain_principle, tdd_guide, etc.) quando fizer sentido.
 - Se o desenvolvedor escolher **avançar**: o agente registra que o tópico foi pulado e passa ao próximo item do plano.
-- O agente deve manter contexto do último tópico trabalhado para continuar de onde parou em sessões futuras (sugestão: arquivo opcional `.progress` na raiz com último capítulo/princípio).
+- O agente deve manter contexto do último tópico trabalhado para continuar de onde parou em sessões futuras (sugestão: arquivo opcional `.progress.md` na raiz com último capítulo/princípio).
 
 ---
 
@@ -20,7 +20,7 @@ Projeto de estudo para aprender **Clean Code** e **Clean Architecture** com impl
 ```
 clean-code-and-architeture-with-php-and-typescript/
 ├── PLANO_ESTUDOS.md          # Este plano (na raiz, para outros desenvolvedores)
-├── .progress                 # (opcional) Último tópico estudado
+├── .progress.md              # (opcional) Último tópico estudado
 ├── php/                      # Implementações e exercícios em PHP
 │   ├── clean-code/           # Exercícios por capítulo Clean Code
 │   └── clean-architecture/   # Exercícios por parte/capítulo Clean Architecture
