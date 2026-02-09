@@ -8,12 +8,8 @@ use CleanCode\Ch03\Services\SendWelcomeEmailService;
 
 class UserRegistration
 {
-    private $emailService;
-
-    public function __construct()
-    {
-        $this->emailService = new SendWelcomeEmailService();
-    }
+    public function __construct(public readonly SendWelcomeEmailService $emailService)
+    {}
 
     public function register(User $user)
     {
@@ -43,7 +39,8 @@ class UserRegistration
 // Uso
 try {
     $user = new User('usuario123', 'teste@example.com', 'minhasenha');
-    $reg = new UserRegistration();
+    $emailService = new SendWelcomeEmailService();
+    $reg = new UserRegistration($emailService);
     echo $reg->register($user);
 } catch (\Exception $e) {
     echo $e->getMessage();
