@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CleanCode\\": "src/"
+            "CleanCode\\": ["src/", "clean-code/"]
         }
     },
     "autoload-dev": {
