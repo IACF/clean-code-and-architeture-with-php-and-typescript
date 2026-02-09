@@ -43,6 +43,7 @@ class ComposerStaticInitb5119a56b681027dc4664d3841f8ac94
         'CleanCode\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/clean-code',
         ),
     );
 
