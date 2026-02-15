@@ -11,15 +11,18 @@ Projeto de estudo para aprender **Clean Code** e **Clean Architecture** com impl
 - **Fluxo obrigatório a cada capítulo/princípio:**
   1.  **Perguntar:** *"Você quer estudar/implementar este capítulo agora ou avançar?"*
   2.  **Explicar:** Se "estudar", explicar brevemente o conceito do capítulo.
-  3.  **Desafio Prático (Atividade):**
-      *   Criar um arquivo com **"Código Sujo" (Bad Code)** que viole os princípios do capítulo, tanto em PHP quanto em TypeScript.
-      *   Pedir para o desenvolvedor refatorar esse código aplicando o que aprendeu.
-  4.  **Análise e Feedback (CRUCIAL):**
+  3.  **Estrutura obrigatória em cada capítulo (PHP e TypeScript):**
+      *   **README:** Um `README.md` na pasta do capítulo explicando o conceito que está sendo estudado.
+      *   **Exemplos antes do exercício:** Sempre criar exemplos de **código ruim** e de **código bom** que ilustrem o princípio, antes de propor o desafio.
+      *   **Exercício (Desafio):** Um arquivo de **"Código Sujo" (Bad Code)** específico para o desenvolvedor refatorar (em PHP e em TypeScript).
+  4.  **Desafio Prático (Atividade):**
+      *   Pedir para o desenvolvedor refatorar o código do exercício aplicando o que aprendeu (usando os exemplos como referência).
+  5.  **Análise e Feedback (CRUCIAL):**
       *   Ler a solução implementada pelo usuário.
       *   **Validar:** Verificar se a refatoração resolveu os problemas originais.
       *   **Dar Feedback:** Apontar o que ficou bom e o que ainda pode melhorar.
       *   Se a solução estiver incompleta ou incorreta, explicar o porquê e pedir nova tentativa ou ajustes.
-  5.  **Gabarito (Comparação):**
+  6.  **Gabarito (Comparação):**
       *   Após o feedback e eventuais correções, fornecer a **solução ideal (Clean Code)** do agente.
       *   Comparar as abordagens.
 
@@ -98,7 +101,11 @@ Nesta fase, os exercícios focam em **estrutura de pastas** e **diagramas/códig
 
 ## Resumo para o agente
 
-- **Sempre crie o "Problema" primeiro:** Gere o arquivo com código ruim.
+- **Estrutura de cada capítulo:** Em toda pasta de capítulo (PHP e TypeScript), incluir:
+  - **README.md** explicando o conceito do capítulo;
+  - **Exemplos de código ruim e código bom** antes do exercício;
+  - **Arquivo de exercício** (código ruim) para o desenvolvedor refatorar.
+- **Sempre crie o "Problema" primeiro:** Gere o arquivo com código ruim (exercício).
 - **Peça a solução:** Deixe o usuário tentar resolver.
 - **Analisar e dar feedback:** Validar a solução do usuário antes de dar o gabarito.
 - **Forneça o gabarito:** Mostre como ficaria aplicando o princípio estritamente.
